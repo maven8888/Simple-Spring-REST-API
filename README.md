@@ -5,10 +5,11 @@ Uses an in memory repository for simplicity.
 
 Task 
 ----
-String: id
-String: description
-boolean: completed
+Task has an ID, Description and Completed status.
 
+
+API
+----
 GET
 localhost:8080/tasks
 
